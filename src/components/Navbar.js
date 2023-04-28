@@ -1,6 +1,8 @@
 
-
 export default function Navbar() {
+  const toggleButton = () => {
+    console.log("Clicked")
+  }
   return (
     <div className="navbar">
       <div className="title">
@@ -9,7 +11,7 @@ export default function Navbar() {
       </div>
       <div className="darkmode">
         <h4>Dark Mode</h4>
-        <button>Toggler</button>
+        <button onClick={toggleButton}>Toggler</button>
       </div>
     </div>
   );

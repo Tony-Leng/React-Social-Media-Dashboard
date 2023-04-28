@@ -1,9 +1,14 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  padding: 0 24px;
 }
 
 .navbar .darkmode {
   display: flex;
   margin-left: 16px;
+}
+
+.navbar .darkmode:hover {
+  cursor: pointer;
 }
