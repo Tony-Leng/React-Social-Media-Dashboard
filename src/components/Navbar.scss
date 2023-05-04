@@ -4,9 +4,12 @@
   padding: 0 24px;
 }
 
-.navbar .darkmode {
+.darkmode {
   display: flex;
-  margin-left: 16px;
+}
+
+.darkmode h4 {
+  margin-right: 16px;
 }
 
 .navbar .darkmode:hover {
