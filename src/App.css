@@ -1,4 +1,5 @@
 @import "./components/Navbar.scss";
+@import "./components/Alltime.scss";
 
 .App {
   text-align: center;
