@@ -33,8 +33,8 @@ export default function Alltime() {
   ]
 
   return (
-      <div className="alltime">
-        {
+    <div className="alltime">
+      {
         stats.map((stat, index) => {
           return (
             <AlltimeCard
@@ -44,6 +44,6 @@ export default function Alltime() {
           )
         })
       }
-      </div>
+    </div>
   )
 }
