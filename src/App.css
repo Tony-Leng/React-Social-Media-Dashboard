@@ -32,6 +32,9 @@
   color: #61dafb;
 }
 
+.darkmode {
+  background-color: hsl(230, 17%, 14%);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
