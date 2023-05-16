@@ -1,7 +1,7 @@
 import TodayCard from './TodayCard'
 
 export default function Today() {
-  const daily = [
+  const channelData = [
     {
       metric: 'Page Views',
       channel: 'FB',
@@ -53,13 +53,13 @@ export default function Today() {
   ]
 
   return (
-    <div className='daily'>
+    <div className='dailyStats'>
       {
-        daily.map((stat, index) => {
+        channelData.map((data, index) => {
           return (
             <TodayCard
             key={index}
-            {...stat}
+            {...data}
             />
           )
         })

@@ -1,5 +1,6 @@
 @import "./components/Navbar.scss";
 @import "./components/Alltime.scss";
+@import "./components/Today.scss";
 
 .App {
   text-align: center;
@@ -31,6 +32,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.alltime {
+  z-index: 2;
 }
 
 .darkmode {
