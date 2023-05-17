@@ -5,9 +5,11 @@ import Today from './components/Today';
 
 function App() {
   return (
-    <Navbar />,
-    <Alltime />,
-    <Today />
+    <div>
+      <Navbar />,
+      <Alltime />,
+      <Today />
+    </div>
   );
 }
 
