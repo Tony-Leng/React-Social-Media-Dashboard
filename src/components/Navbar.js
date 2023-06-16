@@ -1,8 +1,10 @@
 
 export default function Navbar() {
   const toggleButton = () => {
-    document.querySelector('body').classList.add('.darkmode')
+    // document.querySelector('body').classList.add('.darkmode')
+    console.log("clicked!");
   }
+
   return (
     <div className="navbar">
       <div className="title">
