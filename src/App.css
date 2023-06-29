@@ -2,6 +2,10 @@
 @import "./components/Alltime.scss";
 @import "./components/Today.scss";
 
+body {
+  margin: 0 150px;
+}
+
 .App {
   text-align: center;
   padding: 0 24px;
