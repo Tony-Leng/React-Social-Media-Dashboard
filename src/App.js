@@ -6,8 +6,8 @@ import Today from './components/Today';
 function App() {
   return (
     <div>
-      <Navbar />,
-      <Alltime />,
+      <Navbar />
+      <Alltime />
       <Today />
     </div>
   );
